@@ -694,6 +694,7 @@ footer{
 .foot-contant{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .left-foot{
     display: flex;
@@ -722,4 +723,5 @@ footer{
    font-size: 14px;
    font-weight: bolder;
     width: 85px;
+
 }
