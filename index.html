@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar bg-black">
+            <nav>
+                <div class="left">
+
+                    <div class="logo invert"><img src="logo.svg" alt=""></div>
+                    <div class="home invert">
+                        <img src="home.svg" alt="home">
+                    </div>
+                    <div class="search">
+                        <img class="invert" src="search.svg" alt="">
+                        <input type="text" placeholder="What do you want to play?" id="search-input">
+                        <div class="divider"></div>
+                        <div class="search_box invert"><img src="search_box.svg" alt="search box"></div>
+                    </div>
+                    <div class="hamburger">&#9776;</div>
+                </div>
+
+                <div class="right">
+                    <span class="premium span">Premium</span>
+                    <span class="support span">Support</span>
+                    <span class="download span">Download</span>
+                    <div class="divider divider1"></div>
+                    <div class="downloadimg"><img class=" invert" src="download.svg" alt="Install"><span>Install</span>
+                    </div>
+                    <span class="signup span">Signup</span>
+                    <button>Log in</button>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+
+            <div class="left-lib border-radius ">
+                <div class="left-lib-head">
+
+                    <div class="your-lib ">Your Library</div>
+                    <div class="plus">+</div>
+                </div>
+                <div class="main">
+
+                    <div class="left-lib-cont border-radius">
+                        <span class="first-playlist">Create your first playlist</span>
+                        <span class="easy">Its easy, we'll help you</span>
+                        <div class="button" id="create-playlist"><button>Create playlist</button></div>
+                    </div>
+                    <div class="left-lib-cont border-radius">
+                        <span class="first-playlist">Let's find some podcasts to follow</span>
+                        <span class="easy">Let's find some podcasts to follow</span>
+                        <div class="button" id="create-playlist"><button>Browse podcasts</button></div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="card">
+                        <div class="upper">
+                            <span>Legal</span>
+                            <span>Safety & Privacy Center</span>
+                            <span>Privacy Policy</span>
+                            <span>Cookies</span>
+                        </div>
+                        <div class="upper-mid">
+                            <span>About Ads</span>
+                            <span>Accessibility</span>
+                        </div>
+                        <div class="mid">Cookies</div>
+                        <div class="lower"><button><img class="invert" src="english.svg" alt="">English</button></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="right-lib border-radius">
+                <div class="right-container">
+                    <div class="right-head">
+                        <div class="r-left font-family">Trending Songs</div>
+                        <div class="r-right font-family"><a href="">Show all</a></div>
+                    </div>
+                    <div class="grid-contant">
+                        <div class="grid1 grid-1">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img1.jpg" alt="">
+                                <div class="player">
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="grid1 grid-2">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img2.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Tum Ho Toh(From "Saiyaara")</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Vishal Mishra</a>,
+                                        <a href="">Hansika</a>,
+                                        <a href="">Pareek</a>,
+                                        <a href="">Raj Shekhar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-3">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img3.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Preet Re - From "Dhadak 2"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Darshan Raval</a>,
+                                        <a href="">Rochak Kholi</a>,
+                                        <a href="">Jonita Gandhi</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-4">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img4.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Ragile Ragile (From "Kingdom")</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Anirudh Ravichander</a>,
+                                        <a href="">Siddharth Basur</a>,
+                                        <a href="">Krishna</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-5">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img5.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Dhun (From "Saiyaara")</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Mithoon</a>,
+                                        <a href="">Arijit Singh</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-6">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img6.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Barbaad (From "Saiyaara")</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">The Rish</a>,
+                                        <a href="">Jubain Nautiyal</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-7">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img7.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-8">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img8.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Duniya Alag - From "Dhadak 2"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Arijit Singh</a>,
+                                        <a href="">Shreyas Puranik</a>,
+                                        <a href="">Siddharth-Garima</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-9">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img9.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Bas Ek Dhadak - From "Dhadak2"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Shreyas Ghoshal</a>,
+                                        <a href="">Junin Nautiyal</a>,
+                                        <a href="">Javed-Mohsin</a>,
+                                        <a href="">Rashmi Virag</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-10">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img10.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Naam Chale</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Vikram Sarkar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-11">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img11.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Hamsafar (From "Saiyaara")</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachet-Parampara</a>,
+                                        <a href="">Sachet Tandon</a>,
+                                        <a href="">Parampara Tandon</a>,
+                                        <a href="">Irshad Kamil</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-12">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img12.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-13">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img13.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-14">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img14.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-15">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img15.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-16">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img16.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-17">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img17.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pal Pal Jeena Muhaal</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Aarya Chakradhari</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-18">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img18.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Aavan Jaavan (From "WAR 2")</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Pritam</a>,
+                                        <a href="">Arijit Singh</a>,
+                                        <a href="">Nikhita Gandhi</a>,
+                                        <a href="">Amitab Bhattacharya</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-19">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img19.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">MF Gabhru!</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Karan Aujla</a>,
+                                        <a href="">Ikky</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-20">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img20.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Thodi Si Daaru</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">AP Dhillon</a>,
+                                        <a href="">Shreya Ghoshal</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- GRID CONTANT 2 -->
+                    <div class="right-head">
+                        <div class="r-left font-family">Popular Artists</div>
+                        <div class="r-right font-family"><a href="">Show all</a></div>
+                    </div>
+                    <div class="grid-contant-2">
+                        <div class="grid1-2 grid-1 ">
+                            <div class="img-part">
+
+                                <img class="main-img-2" src="img/artist/img1-2.jpg" alt="">
+                                <div class="player">
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text t1">
+                                <div class="p1 font-family"> Pritam</div>
+                                <div class="artists font-family"><a href="">Artist</a></div>
+                            </div>
+
+                        </div>
+                        <div class="grid1-2 grid-2">
+                            <div class="img-part">
+
+                                <img class="main-img-2" src="img/artist/img2-2.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text t1">
+                                <div class="p1 font-family"> A.R.Rahman</div>
+                                <div class="artists font-family"><a href="">Artist</a></div>
+                            </div>
+                        </div>
+                        <div class="grid1-2 grid-3">
+                            <div class="img-part">
+
+                                <img class="main-img-2 image-3" src="img/artist/img3-2.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text t1">
+                                <div class="p1 font-family"> Arijit Singh</div>
+                                <div class="artists font-family"><a href="">Artist</a></div>
+                            </div>
+                        </div>
+                        <div class="grid1-2 grid-4">
+                            <div class="img-part">
+
+                                <img class="main-img-2" src="img/artist/img5-2.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text t1">
+                                <div class="p1 font-family"> Sachin-Jigar</div>
+                                <div class="artists font-family"><a href="">Artist</a></div>
+                            </div>
+                        </div>
+                        <div class="grid1-2 grid-5">
+                            <div class="img-part">
+
+                                <img class="main-img-2" src="img/artist/img6-2.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text t1">
+                                <div class="p1 font-family"> Vishal-Shekhar</div>
+                                <div class="artists font-family"><a href="">Artist</a></div>
+                            </div>
+                        </div>
+                        <div class="grid1-2 grid-6">
+                            <div class="img-part">
+
+                                <img class="main-img-2" src="img/artist/img7-2.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text t1">
+                                <div class="p1 font-family"> Atif Aslam</div>
+                                <div class="artists font-family"><a href="">Artist</a></div>
+                            </div>
+                        </div>
+                        <div class="grid1-2 grid-7">
+                            <div class="img-part">
+
+                                <img class="main-img-2" src="img/artist/img8-2.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text t1">
+                                <div class="p1 font-family"> Anirudh Ravichander</div>
+                                <div class="artists font-family"><a href="">Artist</a></div>
+                            </div>
+                        </div>
+                        <div class="grid1-2 grid-8">
+                            <div class="img-part">
+
+                                <img class="main-img-2" src="img/artist/img9-2.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text t1">
+                                <div class="p1 font-family"> Udit Narayan</div>
+                                <div class="artists font-family"><a href="">Artist</a></div>
+                            </div>
+                        </div>
+                        <div class="grid1-2 grid-9">
+                            <div class="img-part">
+
+                                <img class="main-img-2" src="img/artist/img10-2.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text t1">
+                                <div class="p1 font-family"> Yo Yo Honey Singh</div>
+                                <div class="artists font-family"><a href="">Artist</a></div>
+                            </div>
+                        </div>
+                        <div class="grid1-2 grid-10">
+                            <div class="img-part">
+
+                                <img class="main-img-2" src="img/artist/img11-2.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text t1">
+                                <div class="p1 font-family"> Shankar-Ehsaan-Loy</div>
+                                <div class="artists font-family"><a href="">Artist</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="right-head">
+                        <div class="r-left font-family">Popular albums and singles</div>
+                        <div class="r-right font-family"><a href="">Show all</a></div>
+                    </div>
+                    <div class="grid-contant-3">
+                        <div class="grid1 grid-1">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img1.jpg" alt="">
+                                <div class="player">
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="grid1 grid-2">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img2.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-3">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img3.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-4">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img4.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-5">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img5.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-6">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img6.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-7">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img7.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-8">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img8.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-9">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img9.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid1 grid-10">
+                            <div class="img-part">
+
+                                <img class="main-img" src="img/img10.jpg" alt="">
+                                <div class="player">
+
+                                    <img class="player-img" src="player.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <div class="para1">
+                                    <span class=" font-family">Pardesiya-From "Param Sundari"</span>
+                                </div>
+                                <div class="para2">
+                                    <span>
+                                        <a href="">Sachin-Jigar</a>,
+                                        <a href="">Sonu Nigam</a>,
+                                        <a href="">Krishnakali Saha</a>,
+                                        <a href="">Amitab Bhatnagar</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+    </main>
+    <footer>
+        <div class="foot-contant">
+            <div class="left-foot">
+                <div class="preview font">Preview of Spotify</div>
+                <div class="text-cont font">Sign up to get unlimited songs and podcasts with occasional ads. No credit card
+                    needed.</div>
+            </div>
+            <div class="right-foot">
+                <button class="signup font-family"> <span> Sign up free </span></button>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
