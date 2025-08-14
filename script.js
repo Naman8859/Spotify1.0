@@ -46,7 +46,7 @@ async function getSongs(){
     let song = []
     for(let index = 0; index<as.length; index++){
         const element = as[index];
-        if(element.href.endsWith(".mkv")){
+        if(element.href.endsWith(".mp4")){
             song.push(element.href)
         }
     }
@@ -63,3 +63,4 @@ async function main() {
     
 }
 main()
+
