@@ -49,7 +49,7 @@ async function main() {
     let button = document.querySelector(".grid-button");
     button.addEventListener("click", () => {
         if (songs.length > 0) {
-            var audio = new Audio(songs[0]);
+            var audio = new Audio(songs[1]);
             audio.play();
         } else {
             console.log("No songs found!");
@@ -57,4 +57,5 @@ async function main() {
     });
 }
 main();
+
 
