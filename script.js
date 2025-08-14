@@ -39,7 +39,7 @@ gridItems.forEach(item => {
 });
 
 async function getSongs() {
-    const res = await fetch("song.json"); // JSON file se list le rahe
+    const res = await fetch("./song.json"); // JSON file se list le rahe
     const songList = await res.json();
     return songList;
 }
@@ -57,3 +57,4 @@ async function main() {
     });
 }
 main();
+
