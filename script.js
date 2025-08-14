@@ -3,7 +3,7 @@ const hamburger = document.querySelector(".hamburger");
 const searchInput = document.querySelector("#search-input");
 const searchContainer = document.querySelector(".search");
 
-hamburger.addEventListener("click", ()=>{
+hamburger.addEventListener("click", () => {
     right.classList.toggle("show");
 });
 
@@ -33,34 +33,27 @@ gridItems.forEach(item => {
         if (player) player.classList.remove("activate");
     });
 
-  item.addEventListener("click", ()=>{
-    window.location.href = "next.html";
-  })  
+    item.addEventListener("click", () => {
+        window.location.href = "next.html";
+    });
 });
-async function getSongs(){
-    const a = await fetch("http://127.0.0.1:5501/songs/")
-    let response = await a.text()
-    let div = document.createElement("div")
-    div.innerHTML = response
-    let as = div.getElementsByTagName("a")
-    let song = []
-    for(let index = 0; index<as.length; index++){
-        const element = as[index];
-        if(element.href.endsWith(".mp4")){
-            song.push(element.href)
-        }
-    }
-    return song
+
+async function getSongs() {
+    const res = await fetch("./songs.json"); // JSON file se list le rahe
+    const songList = await res.json();
+    return songList;
 }
 
 async function main() {
-    let songs = await getSongs()
-    let button = document.querySelector(".grid-button")
-    button.addEventListener("click", ()=>{
-        var audio = new Audio(songs[0])
-        audio.play();
-    })
-    
+    let songs = await getSongs();
+    let button = document.querySelector(".grid-button");
+    button.addEventListener("click", () => {
+        if (songs.length > 0) {
+            var audio = new Audio(songs[0]);
+            audio.play();
+        } else {
+            console.log("No songs found!");
+        }
+    });
 }
-main()
-
+main();
